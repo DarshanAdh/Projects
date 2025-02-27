@@ -1,0 +1,70 @@
+/* VolunteerRegistration.css */
+
+.volunteer-registration-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f8ff; /* Light blue background */
+  }
+  
+  .volunteer-registration {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 400px; /* Limits form width */
+    width: 100%; /* Responsive width */
+    text-align: center; /* Centers text inside the card */
+  }
+  
+  .volunteer-registration h2 {
+    color: #007bff; /* Blue to match app theme */
+    margin-bottom: 10px;
+  }
+  
+  .volunteer-registration p {
+    color: #666; /* Gray for secondary text */
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left; /* Aligns labels and inputs to the left */
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Darker gray for labels */
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding doesn’t increase width */
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 15px;
+  }
+  
+  .submit-button {
+    background-color: #007bff; /* Blue to match other buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Full-width button */
+  }
+  
+  .submit-button:disabled {
+    background-color: #cccccc; /* Gray when disabled */
+    cursor: not-allowed;
+  }
